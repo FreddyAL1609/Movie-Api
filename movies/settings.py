@@ -33,7 +33,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["localhost", "movie-api-production-a5e4.up.railway.app"]
 
-CSRF_TRUSTED_ORIGINS = ["https://movie-api-production-a5e4.up.railway.app"]
+CSRF_TRUSTED_ORIGINS = ["localhost", "https://movie-api-production-a5e4.up.railway.app"]
 
 
 # Application definition
