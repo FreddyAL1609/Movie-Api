@@ -1,6 +1,22 @@
-# Proyecto Movie-Api
+# Movie API
 
-Proyecto realizado con DJango y Python para el alquiler de peliculas.
-Cuenta con despliege en Railway.
+## Description
 
-Silabuz
+Este es un proyecto de prueba para el curso de Django de Silabuz.
+
+## Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+```bash
+python manage.py migrate
+python manage.py runserver
+```
+
+## Docs para deploy
+
+[Deploy en railway](./docs/deploy.md)
